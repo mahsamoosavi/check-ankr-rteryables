@@ -18,7 +18,7 @@ export async function findTicketIDForL1Tx(
 
     // Define the EthBridge interface (populate it with the necessary contract addresses)
     const ethBridge = {
-      inbox: '0x...',           // L1 inbox contract address
+      inbox: '0x56efa067892FCFb578C61130cDbd1A94E2eb667B',           // L1 inbox contract address
       outbox: '0x...',          // L1 outbox contract address
       rollup: '0x...',          // L1 rollup contract address
       sequencerInbox: '0x...',  // L1 sequencer inbox contract address
